@@ -1,0 +1,41 @@
+{
+  "general": {
+    "conditions": [],
+    "actions": [
+      {
+        "id": "set-value",
+        "scriptName": "SetValue",
+        "highlight": false,
+        "params": [
+          {
+            "id": "value",
+            "type": "number"
+          }
+        ]
+      },
+      {
+        "id": "set-maxValue",
+        "scriptName": "SetMaxValue",
+        "highlight": false,
+        "params": [
+          {
+            "id": "value",
+            "type": "number"
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "id": "value",
+        "expressionName": "Value",
+        "returnType": "number"
+      },
+      {
+        "id": "maxValue",
+        "expressionName": "MaxValue",
+        "returnType": "number"
+      }
+    ]
+  }
+}

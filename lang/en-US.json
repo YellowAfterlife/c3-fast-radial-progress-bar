@@ -1,0 +1,61 @@
+{
+  "languageTag": "en-US",
+  "fileDescription": "Strings for Fast Radial Progress Bar",
+  "text": {
+    "behaviors": {
+      "yellowafterlife_fastradialprogressbar": {
+        "name": "Fast Radial Progress Bar",
+        "description": "Turns Mesh-compatible objects into radial progress bars!",
+        "help-url": "https://yal.cc/c3-radial-progress-bar",
+        "properties": {
+          "value": {
+            "name": "Value",
+            "desc": "Current value of the progress bar, relative to maximum value."
+          },
+          "maxValue": {
+            "name": "Max Value",
+            "desc": "Maximum value of the progress bar."
+          }
+        },
+        "aceCategories": {
+          "general": "General"
+        },
+        "conditions": {},
+        "actions": {
+          "set-value": {
+            "list-name": "Set Value",
+            "display-text": "{my}: Set value to {0}",
+            "description": "Set value",
+            "params": {
+              "value": {
+                "name": "Value",
+                "desc": ""
+              }
+            }
+          },
+          "set-maxValue": {
+            "list-name": "Set Max Value",
+            "display-text": "{my}: Set max value to {0}",
+            "description": "Set maximum value",
+            "params": {
+              "value": {
+                "name": "Max Value",
+                "desc": ""
+              }
+            }
+          }
+        },
+        "expressions": {
+          "value": {
+            "translated-name": "Value",
+            "description": ""
+          },
+          "maxValue": {
+            "translated-name": "Max Value",
+            "description": ""
+          }
+        }
+      }
+    }
+  }
+}
